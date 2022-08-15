@@ -1,0 +1,121 @@
+body {
+ background: url(/lesson-5/image/ring.jpg) no-repeat fixed;
+ background-size: cover;
+}
+
+div {
+ font-size: 22px;
+ font-family: 'Times New Roman', Times, serif;
+ width: 75%;
+ text-align: justify;
+}
+
+h1 {
+ font-size: 150%;
+ color: green;
+ text-align: center;
+}
+
+h2 {
+ font-style: italic;
+ font-size: 150%;
+ color: aquamarine;
+ text-decoration: underline;
+ text-align: center;
+}
+
+h3 {
+ font-style: italic;
+ color: aquamarine;
+ font-size: 130%;
+ text-align: center;
+}
+
+p {
+ position: relative;
+ left: 40px;
+ width: 1360px;
+}
+
+.upper-text {
+ font-size: 18px;
+ width: 100%;
+ position: relative;
+ left: 10px;
+ width: 1450px;
+ background: rgba(128, 128, 128, 0.6);
+}
+
+.main-text {
+ font-weight: bold;
+}
+
+
+.contents {
+ color: rgb(100, 57, 67);
+ position: fixed;
+ top: 300px;
+ right: 10px;
+ width: 400px;
+ font-weight: bold;
+ background: rgba(0, 255, 55, 0.4);
+ outline: 2px solid rgba(0, 0, 0, 0.4);
+ border: 5px solid rgba(255, 255, 255, 0.4);
+ border-radius: 10px;
+}
+
+.Chapter {
+ width: 100%;
+ position: relative;
+ left: 10px;
+ width: 1450px;
+}
+
+.main-text-up {
+ font-weight: bold;
+ text-decoration: underline;
+ font-size: 100%;
+ font-style: italic;
+ background: rgba(0, 255, 55, 0.4);
+ position: fixed;
+ bottom: 80px;
+ right: 10px;
+ width: 400px;
+ outline: 2px solid rgba(0, 0, 0, 0.4);
+ border: 5px solid rgba(255, 255, 255, 0.4);
+ border-radius: 10px;
+}
+
+.text-up>p {
+ text-align: right;
+}
+
+.gray{
+ background: rgba(128, 128, 128, 0.6);
+ color: aliceblue;
+}
+
+.white {
+ background: rgba(255, 255, 255, 0.6);
+ color: rgb(112, 5, 50);
+}
+
+.green {
+background: rgba(14, 83, 14, 0.4);
+color: rgb(155, 241, 166);
+}
+
+.red {
+ background: rgba(139, 34, 34, 0.4);
+ color: rgb(255, 213, 224);
+}
+
+.blue {
+ background: rgba(59, 94, 211, 0.4);
+ color: rgb(159, 233, 247);
+}
+
+
+
+
+
