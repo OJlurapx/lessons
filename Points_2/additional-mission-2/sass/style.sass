@@ -1,0 +1,147 @@
+$main-color: #33aaff
+$second-color: #ff3344
+$font-size: 18px
+$font-weight: 700
+$line-height: 18px
+
+body, p, h1, h2, h3, h4
+ margin: 0
+ padding: 0
+ font-family: Arial, Helvetica, sans-serif
+
+.header
+ background-color: darken($main-color, 50%)
+ padding: 15px 0
+ color: lighten($main-color, 50%)
+
+ &__title
+  font-size: $font-size
+  font-weight: $font-weight
+  line-height: $line-height + 29px
+
+ &__callback
+  text-align: right
+
+.section
+ padding: 70px 0
+ text-align: center
+ &__title
+  font-size: $font-size * 2
+  font-weight: $font-weight
+  color: darken($main-color, 50%)
+  span
+   color: $second-color
+ &__underline
+  margin: 10px auto
+  width: 200px
+  height: 2px
+  background-color: $main-color
+
+.coral
+ color: $second-color
+
+.main
+ background-color: lighten($main-color, 30%)
+ position: relative
+ h1
+  margin-bottom: 25px
+  font-size: $font-size + 42px
+  font-weight: $font-weight - 400
+  text-transform: uppercase
+  color: darken($main-color, 50%)
+ .sep
+  margin: 25px auto
+  width: 20px
+  height: 20px
+  border-radius: 50%
+  background-color: lighten($main-color, 50%)
+ h3
+  font-size: $font-size * 2
+  font-weight: $font-weight - 400
+  color: darken($main-color, 50%)
+ &__location
+  margin: 24px auto 21px
+  width: 300px
+  height: 64px
+ .comment
+  margin-top: 55px
+  color: #999999
+  font-size: $font-size - 4px
+  line-height: $line-height
+
+.problems
+ &__list
+  text-align: left
+  ul
+   list-style: none
+   li
+    min-height: 100px
+    font-size: $font-size
+    font-weight: $font-weight - 400
+    color: darken($main-color, 50%)
+   li::before
+    position: relative
+    right: 30px
+    top: 25px
+    content: ''
+    display: block
+    width: 20px
+    height: 20px
+    background-color: $main-color
+    border-radius: 50%
+ &__wrapper
+  margin: 0 auto
+  padding: 30px
+  max-width: 700px
+  border: 2px solid $main-color
+  p
+   margin-bottom: 10px
+   font-size: $font-size + 6px
+   color: darken($main-color, 50%)
+
+.prove
+ background-color: lighten($main-color, 30%)
+ &__img
+  margin: 25px auto 10px
+  min-height: 70px
+ img
+  border-bottom: 1px solid $main-color
+
+.footer
+ padding: 15px 0
+ font-size: $font-size - 4px
+ font-weight: $font-weight - 400
+ background-color: darken($main-color, 50%)
+ &__left
+  color: #66a2cc
+  opacity: 0.5
+ &__right
+  text-align: right
+  color: $main-color
+  a
+   color: $main-color
+   text-decoration: none
+   &:hover
+    text-decoration: underline
+
+.button
+ padding: 10px 30px
+ display: inline-block
+ cursor: pointer
+ font-size: $font-size - 4px
+ font-weight: $font-weight
+ text-align: center
+ text-transform: uppercase
+ color: lighten($main-color, 50%)
+ background-color: $second-color
+ border: 1px solid $second-color
+ border-radius: 25px
+ &__start
+  margin-top: 20px
+ &:hover
+  box-shadow: 0 0 25px #999999
+  -webkit-box-shadow: 0 0 25px #999999
+  background-color: $main-color
+  border: 1px solid lighten($main-color, 30%)
+ &:focus
+  outline: none
