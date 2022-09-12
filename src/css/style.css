@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* дз 13 урока */
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 760px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 580px;
+    width: 95%;
+  }
+}
+.button {
+  border-radius: 10px;
+  background-color: #ffd200;
+  border: none;
+  padding: 18px 30px;
+}
+
+/* дз 13 урока */
+/* Импорт стилей шапки */
+.navbar {
+  padding: 8px 0;
+}
+.navbar-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__info {
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+.navbar__address {
+  display: flex;
+  flex-direction: column;
+}
+.navbar__button {
+  margin-left: 30px;
+}
+.navbar__phone {
+  display: inline-block;
+  color: #333333;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar__contacts {
+    display: none;
+  }
+  .navbar__button {
+    font-size: 12px;
+    padding: 15px 26px;
+  }
+  .navbar__logo {
+    width: 90px;
+  }
+}
+/* дз 13 урока */
+/* дз 13 урока */
+.hero {
+  padding: 50px 0 0 0;
+  background-color: #f5f5f5;
+}
+.hero-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__text {
+  max-width: 500px;
+  width: 100%;
+}
+.hero__line {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 350px;
+  width: 100%;
+  margin: 30px 0;
+  font-size: 14px;
+}
+
+.line__image {
+  margin-right: 30px;
+}
+
+h4 {
+  margin-bottom: 70px;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .hero__text {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .hero-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero__line {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+  .line__image {
+    margin-right: 15px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  h4 {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}/*# sourceMappingURL=style.css.map */
