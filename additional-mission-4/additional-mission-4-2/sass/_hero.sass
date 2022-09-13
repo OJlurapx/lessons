@@ -1,0 +1,64 @@
+.hero
+  background: url(../img/background.jpg)
+  padding: 120px 0
+  margin-top: 50px
+  &-block
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__title
+      font-size: 34px
+      font-weight: 500
+      color: lighten($main-color, 100%)
+    &__subtitle
+      font-size: 16px
+      font-weight: 400
+      color: lighten($main-color, 100%)
+      margin-top: 30px
+      margin-bottom: 90px
+  &-work
+    display: flex
+    justify-content: space-between
+    width: 100%
+  &-decoration
+    display: flex
+    flex-direction: column
+    justify-content: start
+    align-items: center
+    padding: 30px 50px 45px 50px
+    max-width: 400px
+    max-height: 660px
+    background-color: lighten($main-color, 100%)
+    &__title
+      font-size: 16px
+      font-weight: 700
+      margin-bottom: 35px
+      color: $text-color
+    &__subtitle
+      font-size: 16px
+      font-weight: 700
+      margin-top: 40px
+      color: $text-color
+    &__price
+      font-size: 22px
+      font-weight: 700
+      color: $text-color
+    &__button
+      width: 210px
+      height: 70px
+      text-transform: uppercase
+      font-weight: 600
+  &-list
+    padding: 0
+    margin-top: 34px
+    flex-grow: 1
+    &__item
+      list-style-type: none
+      font-size: 16px
+      text-align: center
+      margin-bottom: 15px
+      color: $text-color
+    &__item:before
+      content: "\2713"
+      color: $main-color
+      margin-right: 10px

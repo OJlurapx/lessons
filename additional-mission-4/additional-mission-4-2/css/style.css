@@ -1,0 +1,141 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  width: 95%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  background-color: #fab102;
+  color: white;
+  border: 2px solid #fab102;
+  border-radius: 10px;
+}
+
+.hero {
+  background: url(../img/background.jpg);
+  padding: 120px 0;
+  margin-top: 50px;
+}
+.hero-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-block__title {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+}
+.hero-block__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.hero-work {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.hero-decoration {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 30px 50px 45px 50px;
+  max-width: 400px;
+  max-height: 660px;
+  background-color: white;
+}
+.hero-decoration__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #1a1820;
+}
+.hero-decoration__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: #1a1820;
+}
+.hero-decoration__price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1820;
+}
+.hero-decoration__button {
+  width: 210px;
+  height: 70px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.hero-list {
+  padding: 0;
+  margin-top: 34px;
+  flex-grow: 1;
+}
+.hero-list__item {
+  list-style-type: none;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1a1820;
+}
+.hero-list__item:before {
+  content: "✓";
+  color: #286b0a;
+  margin-right: 10px;
+}
+
+.second {
+  background-color: #286b0a;
+  padding: 110px 0;
+  margin-top: 50px;
+}
+.second-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-block__title {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+}
+.second-block__subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.second-work {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.second-decoration {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.second-decoration__button {
+  width: 150px;
+  height: 55px;
+  margin-top: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
