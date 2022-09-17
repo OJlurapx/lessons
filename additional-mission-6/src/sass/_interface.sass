@@ -1,0 +1,84 @@
+*
+ box-sizing: border-box
+
+ body
+  font-family: Arial, sans-serif
+  font-size: 12px
+  background: url(../img/background.jpg)
+
+.container
+ max-width: 550px
+ width: 100%
+ margin: auto
+
+=uppercase
+ text-transform: uppercase
+ font-weight: bold
+ color: lighten($main-color, 100%)
+
+.form
+
+ &-block
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  position: relative
+  &:before
+   content: ''
+   width: 320px
+   height: 370px
+   margin-top: 43px
+   position: absolute
+   background-color: lighten($main-color, 100%)
+ &-creation
+  height: 300px
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  align-items: flex-start
+  position: relative
+  &__block
+   display: flex
+   flex-direction: column
+   justify-content: space-around
+   align-items: flex-start
+   padding-top: 10px
+   position: relative
+ &__input
+  background: url(../img/background.jpg)
+  width: 262px
+  height: 33px
+  margin-bottom: 15px
+  padding-left: 12px
+  border: 1px solid $secondary
+  font-style: italic
+  &:last-child
+   margin-bottom: 25px
+  &:focus
+   border: 2px solid $main-color
+   outline: none
+ &__title
+  +uppercase
+  margin-top: 10px
+  margin-bottom: 20px
+  margin-right: 110px
+  padding: 5px 10px
+  position: relative
+  background-color: $main-color
+ &__subtitle
+  font-weight: bold
+  margin-bottom: 12px
+ &__tag
+  color: $main-color
+ &__button
+  +uppercase
+  font-size: 16px
+  width: 260px
+  height: 45px
+  background-color: $main-color
+  border-radius: 5px
+  border: 1px solid darken($main-color, 10%)
+  &:hover
+   background-color: darken($main-color, 10%)
+   cursor: pointer
